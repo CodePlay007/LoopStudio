@@ -635,6 +635,10 @@ video {
   margin-top: 8rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1039,6 +1043,14 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1089,6 +1101,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:self-end {
+    align-self: flex-end;
   }
 
   .md\:p-10 {
